@@ -1,0 +1,72 @@
+[debug] [2017-06-13T05:50:03.832Z] ----------------------------------------------------------------------
+[debug] [2017-06-13T05:50:03.832Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-13T05:50:03.832Z] CLI Version:  3.9.1
+[debug] [2017-06-13T05:50:03.832Z] Platform:     win32
+[debug] [2017-06-13T05:50:03.832Z] Node Version: v6.10.3
+[debug] [2017-06-13T05:50:03.832Z] Time:         Tue Jun 13 2017 08:50:03 GMT+0300 (Belarus Standard Time)
+[debug] [2017-06-13T05:50:03.832Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-13T05:50:03.879Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-13T05:50:03.879Z] > authorizing via signed-in user
+[debug] [2017-06-13T05:50:03.894Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-13T05:50:03.894Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/Bdgvo20DkyEo4WLiLLr6lIkaCmFAjVKwN2EY4gaAFas',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jun 13 2017 08:50:03 GMT+0300 (Belarus Standard Time)
+[debug] [2017-06-13T05:50:04.129Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-13T05:50:04.144Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfirstproject-fda02  
+ Tue Jun 13 2017 08:50:04 GMT+0300 (Belarus Standard Time)
+[debug] [2017-06-13T05:50:04.957Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-13T05:50:04.957Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfirstproject-fda02/tokens  
+ Tue Jun 13 2017 08:50:04 GMT+0300 (Belarus Standard Time)
+[debug] [2017-06-13T05:50:05.847Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\students\firebase'...
+[info] 
+[debug] [2017-06-13T05:50:05.847Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfirstproject-fda02  
+ Tue Jun 13 2017 08:50:05 GMT+0300 (Belarus Standard Time)
+[debug] [2017-06-13T05:50:06.722Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-13T05:50:06.722Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/660816671983/clients/_:getWebAppConfig  
+ Tue Jun 13 2017 08:50:06 GMT+0300 (Belarus Standard Time)
+[debug] [2017-06-13T05:50:07.285Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: app
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-06-13T07:22:51.287Z] ----------------------------------------------------------------------
+[debug] [2017-06-13T07:22:51.287Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-13T07:22:51.287Z] CLI Version:  3.9.1
+[debug] [2017-06-13T07:22:51.287Z] Platform:     win32
+[debug] [2017-06-13T07:22:51.287Z] Node Version: v6.10.3
+[debug] [2017-06-13T07:22:51.287Z] Time:         Tue Jun 13 2017 10:22:51 GMT+0300 (Belarus Standard Time)
+[debug] [2017-06-13T07:22:51.287Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-13T07:22:51.303Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-13T07:22:51.303Z] > authorizing via signed-in user
+[debug] [2017-06-13T07:22:51.303Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-13T07:22:51.303Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/Bdgvo20DkyEo4WLiLLr6lIkaCmFAjVKwN2EY4gaAFas',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jun 13 2017 10:22:51 GMT+0300 (Belarus Standard Time)
+[debug] [2017-06-13T07:22:51.615Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-13T07:22:51.631Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfirstproject-fda02  
+ Tue Jun 13 2017 10:22:51 GMT+0300 (Belarus Standard Time)
+[debug] [2017-06-13T07:22:52.984Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-13T07:22:52.986Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfirstproject-fda02/tokens  
+ Tue Jun 13 2017 10:22:52 GMT+0300 (Belarus Standard Time)
+[debug] [2017-06-13T07:22:53.904Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\students\firebase'...
+[info] 
+[debug] [2017-06-13T07:22:53.919Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfirstproject-fda02  
+ Tue Jun 13 2017 10:22:53 GMT+0300 (Belarus Standard Time)
+[debug] [2017-06-13T07:22:54.857Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-13T07:22:54.857Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/660816671983/clients/_:getWebAppConfig  
+ Tue Jun 13 2017 10:22:54 GMT+0300 (Belarus Standard Time)
+[debug] [2017-06-13T07:22:55.466Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: app
+[info] +  hosting: Local server: http://localhost:5000
+
